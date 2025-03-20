@@ -26,7 +26,6 @@ import wrapp3 from '../src/wrapper3.jpg'
 import wrapp4 from '../src/wrapper4.jpg'
 import wrapp5 from '../src/wrapper5.jpg'
 import Spring from '../src/springimg.jpg';
-import Carts from '../src/cards.png';
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper/modules';
@@ -477,14 +476,14 @@ const BasicExample = () => {
       </div>
 
       <div className="container-fluid mt-3">
-        <div className="row ">
-          <div className="col-12 col-md-6"><p className='fss'>© 2025 Product 24.All Rights Reserved</p></div>
-          <div className="col-6 d-flex justify-content-lg-end amzn "> <span>
-            <img src={Carts} alt="" width={400} className='img-fluid' /></span></div>
+        <div className="row d-flex justify-content-between ">
+          <div className="col-12 col-md-6 "><p className='fss'>© 2025 Product 24.All Rights Reserved</p></div>
+          <div className="col-12 col-md-6 d-flex justify-content-sm-start  amzn"></div>
         </div>
-
-
       </div>
+
+
+
 
 
 

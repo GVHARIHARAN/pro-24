@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import "../src/pro1.css"
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Carts from '../src/cards.png'
+
 
 // import { Footer } from "flowbite-react";
 
@@ -14,6 +14,11 @@ import Carts from '../src/cards.png'
 import { Container, Row, Col, Card, Button, Offcanvas, ListGroup, } from 'react-bootstrap';
 
 const pro1 = () => {
+
+    const navs = useNavigate();
+    const buts = () => {
+        navs(-1)
+    }
 
     const watch1 = [{
         id: 4,
@@ -165,9 +170,7 @@ const pro1 = () => {
                 <div className="row shopwa">
                     <div className="col-12  ">
                         <h1 className='text-center'>Shop</h1>
-                        <a className='text-dark text-center ' href="" ><p >Home</p></a>
-
-
+                        <button onClick={() => buts()} className='btn btn-outline-dark  mx-4' style={{borderRadius:'40px' ,letterSpacing:"4px", border:'none' }}> Home </button>
                     </div>
 
                 </div>
@@ -286,10 +289,9 @@ const pro1 = () => {
             </div>
 
             <div className="container-fluid mt-3">
-                <div className="row ">
+                <div className="row d-flex justify-content-between ">
                     <div className="col-12 col-md-6 "><p>© 2025 Product 24.All Rights Reserved</p></div>
-                    <div className="col-12 col-md-6 d-flex justify-content-lg-end "> <span>
-                        <img src={Carts} alt="" width={400} className='img-fluid' /></span></div>
+                    <div className="col-12 col-md-6 d-flex justify-content-sm-start  amzn"></div>
                 </div>
 
 

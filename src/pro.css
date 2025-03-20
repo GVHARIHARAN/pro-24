@@ -13,7 +13,7 @@
 
 body {
     font-family: "Lexend Giga", serif;
-    background:white;
+    background: white;
 
 }
 
@@ -308,7 +308,7 @@ body {
 
 /* Default styles for larger screens (desktop and tablets) */
 .wrapper {
-    
+
     overflow: hidden;
     white-space: nowrap;
     padding: 30px 0;
@@ -372,7 +372,8 @@ body {
     }
 
     .silde {
-        display: inline-block;  /* Change from inline-table to inline-block for better alignment */
+        display: inline-block;
+        /* Change from inline-table to inline-block for better alignment */
     }
 
     /* Optional: Reduce the sliding animation speed for smaller screens */
@@ -386,7 +387,7 @@ body {
     .wrapper {
         padding: 10px 5px;
     }
-  
+
 
     .silde img {
         height: 150px;
@@ -394,8 +395,10 @@ body {
         margin: 5px;
     }
 
-    .wrapper::before, .wrapper::after {
-        width: 150px;  /* Reduce the size of the fade-out effect */
+    .wrapper::before,
+    .wrapper::after {
+        width: 150px;
+        /* Reduce the size of the fade-out effect */
     }
 }
 
@@ -481,10 +484,35 @@ span a {
         margin-right: 20px;
     }
 }
+
 @media (max-width:768px) {
-    .fss{
-    
+    .fss {
+
         font-size: small;
     }
-   
+
+}
+
+
+
+.amzn {
+    height: 40px;
+    background: url(cards.png) no-repeat;
+    background-size: cover;
+    width: 500px;
+}
+
+@media (max-width:480px) {
+    .amzn {
+        height: 25px;
+        width: 300px;
+    }
+}
+
+@media (max-width:768px){
+    .amzn{
+        justify-content: end;
+        height: 30px;
+        width: 350px;
+    }
 }
