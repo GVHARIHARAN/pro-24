@@ -461,16 +461,16 @@ const BasicExample = () => {
         </div>
         <div className="section">
           <h5>Help</h5>
-          <a href="" className='text-dark' onClick={() => handleShow()} ><p>Cart</p></a>
-          <a href="" className='text-dark'><p>Reviews</p></a>
+          <a className='text-dark'  ><p onClick={() => handleShow()}>Cart</p></a>
+          <a className='text-dark'><p>Reviews</p></a>
           <a href="" className='text-dark'><p>About Us</p></a>
         </div>
         <div className="section" id='section'>
           <h5>Services</h5>
-          <a href="" className='text-dark' onClick={() => but()}> <p >Shop</p></a>
-          <a href="" className='text-dark' onClick={() => but()}> <p >New Desing1</p></a>
-          <a href="" className='text-dark' onClick={() => but()}> <p >New Desing2</p></a>
-          <a href="" className='text-dark' onClick={() => but()}> <p >New Design3</p></a>
+          <a href="" className='text-dark'> <p  onClick={() => but()}>Shop</p></a>
+          <a href="" className='text-dark' > <p onClick={() => but()}>New Desing1</p></a>
+          <a href="" className='text-dark' > <p onClick={() => but()} >New Desing2</p></a>
+          <a href="" className='text-dark'> <p  onClick={() => but()} >New Design3</p></a>
         </div>
 
       </div>
