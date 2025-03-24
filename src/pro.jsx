@@ -258,7 +258,7 @@ const BasicExample = () => {
       </Swiper>
 
       <div className="container-fluid mt-5" >
-        <div className="row d-flex justify-content-evenly" data-aos="zoom-in-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <div className="row d-flex justify-content-evenly" >
           <div className="col dr col-12 col-md-6 col-lg-4 img-fluid m-3" onClick={() => but()}>
             <h1 className='men1 text-center'>Dress Wacth</h1>
           </div>
@@ -272,7 +272,7 @@ const BasicExample = () => {
       </div >
 
       <div className="container  mt-5">
-        <div className="row " data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <div className="row " >
           <div className="col">
             <h1 className='text-center tr1'>Trending Now</h1>
 
@@ -350,10 +350,10 @@ const BasicExample = () => {
       {/* shop */}
       <div className="container-fluid mt-5 ">
         <div className="row d-flex p-3" >
-          <div className="col-12 col-md-6 col-lg-6 justify-content-between" data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+          <div className="col-12 col-md-6 col-lg-6 justify-content-between" >
             <img className=' shim img-fluid' src={Spring} alt="" />
           </div>
-          <div className="col-12 col-md-6 col-lg-6 mt-4 shop2" data-aos="zoom-in-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+          <div className="col-12 col-md-6 col-lg-6 mt-4 shop2" >
             <h2 id='sh2' className='mt-lg-5'>Spring Winter 2025</h2>
             <p id='shp' className='mt-lg-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Quis ipsum suspendisse ultrices gravida. Risus commodo  viverra maecenas accumsan lacus vel facilisis.</p>
             <button className='btn mt-lg-5 shb btn-outline-dark' onClick={() => but()} >shop the look</button>
@@ -362,7 +362,7 @@ const BasicExample = () => {
       </div>
 
       <div className="container-fluid  mt-5 d-flex  shopnew" >
-        <div className="row d-flex justify-content-center " data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <div className="row d-flex justify-content-center " >
 
 
 
@@ -378,7 +378,7 @@ const BasicExample = () => {
 
       {/* Feature Product */}
       <div className="container mt-5">
-        <div className="row" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <div className="row" >
           <div className="col">
             <h2 className='text-center' >Feature Product</h2>
             <p className='text-center m-3' >
@@ -391,7 +391,7 @@ const BasicExample = () => {
 
       {/* insta */}
       <div className="container mt-5">
-        <div className="row" data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <div className="row" >
           <div className='col'>
             <a href="https://www.instagram.com/imhariharasudhan?igsh=bHRqaHIybzRhd3ls" className=" text-decoration-none text-dark"><h1 className="text-center">@PROUDUCT 24</h1></a>
             <p className="text-center">Follow us on Instagram</p>
@@ -401,8 +401,8 @@ const BasicExample = () => {
       </div>
 
       {/* scroll img */}
-      <div className="wrapper"  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" >
-        <div className="silde"  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+      <div className="wrapper"   >
+        <div className="silde"  >
 
 
           <img src={wrapp} alt="" />
@@ -416,7 +416,7 @@ const BasicExample = () => {
 
 
         </div>
-        <div className="silde"  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <div className="silde">
 
           <img src={wrapp} alt="" />
           <img src={wrapp1} alt="" />
@@ -432,7 +432,7 @@ const BasicExample = () => {
 
       {/* contact us */}
 
-      <div className="footer" data-aos="zoom-in-left"   data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" >
+      <div className="footer"  >
         <div className="section"  >
           <h4>PRODUCT 24<a href="" style={{ color: '#013220' }} className='fw-bolder '>
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-hourglass" viewBox="0 0 16 16">
@@ -476,7 +476,7 @@ const BasicExample = () => {
       </div>
 
       <div className="container-fluid mt-3">
-        <div className="row d-flex justify-content-between " data-aos="zoom-in-right"  data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" >
+        <div className="row d-flex justify-content-between">
           <div className="col-12 col-md-6 "><p className='fss'>© 2025 Product 24.All Rights Reserved</p></div>
           <div className="col-12 col-md-6 d-flex justify-content-sm-start  amzn"></div>
         </div>
