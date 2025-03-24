@@ -260,13 +260,13 @@ const BasicExample = () => {
       <div className="container-fluid mt-5" >
         <div className="row d-flex justify-content-evenly" >
           <div className="col dr col-12 col-md-6 col-lg-4 img-fluid m-3" onClick={() => but()}>
-            <h1 className='men1 text-center'>Dress Wacth</h1>
+            <h1 className='men1 text-center'>Dress Watch</h1>
           </div>
           <div className="col me col-12 col-md-6 col-lg-4 img-fluid m-3  " onClick={() => but()}>
             <h1 className="men1 text-center"> Men's watch</h1>
           </div>
           <div className="col wom col-12 col-md-6 col-lg-4 img-fluid m-3" onClick={() => but()}>
-            <h1><div className="men1 text-center"> Women's wacth</div></h1>
+            <h1><div className="men1 text-center"> Women's watch</div></h1>
           </div>
         </div >
       </div >
