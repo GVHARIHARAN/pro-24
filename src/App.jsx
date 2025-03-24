@@ -5,15 +5,15 @@ import Sample from '../src/pro1'
 // import Order from'../src/pro'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { useEffect } from 'react'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
 
-  useEffect(() => {
+
     AOS.init();
-  }, [])
+
 
   return (
     <>
