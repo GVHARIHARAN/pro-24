@@ -166,7 +166,7 @@ const pro1 = () => {
                 </Container>
             </Navbar>
             {/* shop */}
-            <div className="container-fluid shopw img-fluid d-flex justify-content-center">
+            <div className="container-fluid shopw img-fluid d-flex justify-content-center"  data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                 <div className="row shopwa">
                     <div className="col-12  ">
                         <h1 className='text-center'>Shop</h1>
@@ -245,7 +245,7 @@ const pro1 = () => {
             </Container>
 
 
-            <div className="footer">
+            <div className="footer"  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                 <div className="section" id='section'>
                     <h4>PRODUCT 24<a href="" style={{ color: '#013220' }} className='fw-bolder '>
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-hourglass" viewBox="0 0 16 16">

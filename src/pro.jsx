@@ -256,7 +256,7 @@ const BasicExample = () => {
 
       </Swiper>
 
-      <div className="container-fluid mt-5">
+      <div className="container-fluid mt-5" data-aos="zoom-out-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
         <div className="row d-flex justify-content-evenly">
           <div className="col dr col-12 col-md-6 col-lg-4 img-fluid m-3" onClick={() => but()}>
             <h1 className='men1 text-center'>Dress Wacth</h1>
@@ -267,11 +267,11 @@ const BasicExample = () => {
           <div className="col wom col-12 col-md-6 col-lg-4 img-fluid m-3" onClick={() => but()}>
             <h1><div className="men1 text-center"> Women's wacth</div></h1>
           </div>
-        </div>
-      </div>
+        </div >
+      </div >
 
-      <div className="container  mt-5">
-        <div className="row">
+      <div className="container  mt-5" data-aos="fade-up-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+        <div className="row ">
           <div className="col">
             <h1 className='text-center tr1'>Trending Now</h1>
 
@@ -283,7 +283,6 @@ const BasicExample = () => {
         </div>
 
       </div>
-
       {/* product */}
 
       <Container className="mt-5">
@@ -348,12 +347,12 @@ const BasicExample = () => {
         </Offcanvas>
       </Container>
       {/* shop */}
-      <div className="container-fluid mt-5">
-        <div className="row d-flex p-3">
-          <div className="col-12 col-md-6 col-lg-6 justify-content-between">
+      <div className="container-fluid mt-5 ">
+        <div className="row d-flex p-3" >
+          <div className="col-12 col-md-6 col-lg-6 justify-content-between" data-aos="zoom-in-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
             <img className=' shim img-fluid' src={Spring} alt="" />
           </div>
-          <div className="col-12 col-md-6 col-lg-6 mt-4 shop2">
+          <div className="col-12 col-md-6 col-lg-6 mt-4 shop2" data-aos="zoom-in-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
             <h2 id='sh2' className='mt-lg-5'>Spring Winter 2025</h2>
             <p id='shp' className='mt-lg-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Quis ipsum suspendisse ultrices gravida. Risus commodo  viverra maecenas accumsan lacus vel facilisis.</p>
             <button className='btn mt-lg-5 shb btn-outline-dark' onClick={() => but()} >shop the look</button>
@@ -361,7 +360,7 @@ const BasicExample = () => {
         </div>
       </div>
 
-      <div className="container-fluid  mt-5 d-flex  shopnew">
+      <div className="container-fluid  mt-5 d-flex  shopnew" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
         <div className="row d-flex justify-content-center ">
 
 
@@ -377,7 +376,7 @@ const BasicExample = () => {
       </div>
 
       {/* Feature Product */}
-      <div className="container mt-5">
+      <div className="container mt-5" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
         <div className="row">
           <div className="col">
             <h2 className='text-center' >Feature Product</h2>
@@ -390,7 +389,7 @@ const BasicExample = () => {
       </div>
 
       {/* insta */}
-      <div className="container mt-5">
+      <div className="container mt-5" data-aos="fade-up-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
         <div className="row">
           <div className='col'>
             <a href="https://www.instagram.com/imhariharasudhan?igsh=bHRqaHIybzRhd3ls" className=" text-decoration-none text-dark"><h1 className="text-center">@PROUDUCT 24</h1></a>
@@ -401,7 +400,7 @@ const BasicExample = () => {
       </div>
 
       {/* scroll img */}
-      <div className="wrapper">
+      <div className="wrapper" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
         <div className="silde">
 
 
@@ -432,7 +431,7 @@ const BasicExample = () => {
 
       {/* contact us */}
 
-      <div className="footer">
+      <div className="footer" data-aos="zoom-out-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" >
         <div className="section">
           <h4>PRODUCT 24<a href="" style={{ color: '#013220' }} className='fw-bolder '>
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-hourglass" viewBox="0 0 16 16">
@@ -467,10 +466,10 @@ const BasicExample = () => {
         </div>
         <div className="section" id='section'>
           <h5>Services</h5>
-          <a href="" className='text-dark'> <p  onClick={() => but()}>Shop</p></a>
+          <a href="" className='text-dark'> <p onClick={() => but()}>Shop</p></a>
           <a href="" className='text-dark' > <p onClick={() => but()}>New Desing1</p></a>
           <a href="" className='text-dark' > <p onClick={() => but()} >New Desing2</p></a>
-          <a href="" className='text-dark'> <p  onClick={() => but()} >New Design3</p></a>
+          <a href="" className='text-dark'> <p onClick={() => but()} >New Design3</p></a>
         </div>
 
       </div>

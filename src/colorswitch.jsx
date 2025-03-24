@@ -1,7 +1,5 @@
-
 import React from 'react'
 import './portfolio.css'
-
 const colorswitch = () => {
 
     const btn = document.getElementsByClassName('btn');

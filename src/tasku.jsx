@@ -231,7 +231,7 @@ function ProductsPage() {
            
 
             <section id='home'>
-                <div className='container py-5 d-flex justify-content-center align-items-center '>
+                <div className='container-fluid py-5 d-flex justify-content-center align-items-center '>
                     <div className="row">
                         <div className="col text-center">
                             <h1>Welcome to Hotel R</h1>
@@ -244,7 +244,7 @@ function ProductsPage() {
                             </form>
                         </div>
                     </div>
-                </div>
+                </div>  
             </section>
 
             {/* About */}
