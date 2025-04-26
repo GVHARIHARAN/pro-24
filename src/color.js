@@ -89,7 +89,7 @@ function randcolor() {
 // document.addEventListener('DOMContentLoaded', function() {
 //     const btnn = document.getElementsByClassName('btn');
 
-//     // Loop through all elements with class 'btn' and add event listeners
+// // Loop through all elements with class 'btn' and add event listeners
 //     for (let i = 0; i < btnn.length; i++) {
 //         btnn[i].addEventListener('click', function () {
 //             const child = document.createElement('h3');
@@ -100,4 +100,23 @@ function randcolor() {
 //         });
 //     }
 // });
+// let arr = [1, 2, 3, 4, 5]
+// let sum = (arr) => {
+//     let a = 0
+//     for (let val of arr) {
+//         a += val
+//     }
+//     return a
+// }
+// console.log(sum(arr));
+
+let fact = (n) => {
+    if (n == 1)
+        return n
+    return n * fact(n - 1)
+}
+console.log(fact(5));
+
+
+
 

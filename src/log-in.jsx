@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import  '../src/log-in.css';
 import { useNavigate } from 'react-router-dom';
-
+import Icon from '../src/icon.png';
 const Login = () => {
     const navigate = useNavigate();
     let ld;
@@ -74,6 +74,7 @@ const Login = () => {
 
         return (
             <>
+            <link rel="icon" href={Icon} />
                 <Navbar expand="lg" className="bg-body-tertiary" id="pnavbar">
                     <Container >
                         <Navbar.Brand href="#home">  <h2>PRODUCT  24<a href="" style={{ color: '#98bf64' }} className='fw-bolder '>
@@ -84,7 +85,7 @@ const Login = () => {
                         
                     </Container>
                 </Navbar>
-                <div className='container-fluid' id='login'>
+                <div className='container-fluid img-fluid' id='login'>
                     <div className='row '>
                         <div className='col-md-6 col-lg-5 mx-auto boxlo'
                          data-aos="zoom-out-left"

@@ -1,18 +1,138 @@
-/* *{
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lexend+Giga&display=swap');
+
+* {
+    color: #636b2f;
     padding: 0%;
     margin: 0%;
+    font-family: "Lexend Giga", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    /* color: #fdfbd4; */
 }
-#pnavbar
-{
 
-    position:sticky;
-    font-weight: bolder;
+#navb {
+    position: sticky;
+    /* background-color: lightgray; */
     z-index: 100;
-    padding: .40px 40px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
- 
-}
-.navh1{
-    margin: 10px;
-} */
 
+    padding: .25px 25px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+
+}
+
+.navberlink {
+    color: #636b2f;
+}
+
+.navberlink:hover {
+    margin: .10% 5%;
+    background-color: #636b2f;
+    height: auto;
+    width: 5%;
+    color: white;
+    text-decoration: solid;
+    border-radius: 50%;
+}
+
+.seecv {
+    text-decoration: none;
+    color: #636b2f;
+    border: groove 1px #636b2f;
+    border-radius: 20px;
+    padding: 1%;
+
+
+}
+
+.seecv:hover {
+    background-color: #636b2f;
+    color: white;
+    border: solid 1px #636b2f;
+}
+
+.welcome {
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+
+    padding-top: 15%;
+
+}
+
+.welcom1 {
+    height: 600px;
+    width: 100%;
+    background-image: url(portfolioccc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* For mobile devices (below 768px) */
+@media screen and (max-width: 768px) {
+    .welcom1 {
+        height: 400px;
+
+    }
+
+    .welcome {
+
+        font-size: xx-small;
+    }
+    .welh2{
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .welcom1 {
+        height: 230px;
+
+    }
+
+    .welp {
+        padding-top: 6%;
+        font-size: 8px;
+    }
+
+    .welh2 {
+        font-size: 15px;
+        width: 10%;
+        letter-spacing: normal;
+      
+    }
+
+    .seecv {
+        font-size: 10px;
+        padding: 1%;
+    }
+}
+.welh2{
+    letter-spacing: 10px;
+    border-right: 5px soild;
+    border-right-color: #636b2f;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30, end), blink-caret .75s step-end infinite;
+    animation-delay: 1s;
+}
+
+.wrapper{
+    display:inline-block;
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes typing {
+    from{
+        width: 50;
+    }
+}

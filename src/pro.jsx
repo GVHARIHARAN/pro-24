@@ -20,12 +20,13 @@ import { useRef, useState } from 'react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import wrapp from '../src/wrapper.jpg'
-import wrapp1 from '../src/wrapper1.jpg'
-import wrapp2 from '../src/wrapper2.jpg'
-import wrapp3 from '../src/wrapper3.jpg'
-import wrapp4 from '../src/wrapper4.jpg'
-import wrapp5 from '../src/wrapper5.jpg'
+import Icon from '../src/icon.png';
+import wrapp from '../src/wrapper.jpg';
+import wrapp1 from '../src/wrapper1.jpg';
+import wrapp2 from '../src/wrapper2.jpg';
+import wrapp3 from '../src/wrapper3.jpg';
+import wrapp4 from '../src/wrapper4.jpg';
+import wrapp5 from '../src/wrapper5.jpg';
 import Spring from '../src/springimg.jpg';
 
 // import required modules
@@ -201,6 +202,7 @@ const BasicExample = () => {
 
   return (
     <>
+    <link rel="icon" href={Icon} />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <Navbar expand="lg" className="bg-body-tertiary" id="pnavbar">
         <Container>

@@ -1,8 +1,7 @@
-import React from 'react'
-import One from '../src/log-in'
+import One from '../src/pro'
 // import Sum from '../src/componments/navber'
-import Sample from '../src/pro'
-import Order from'../src/pro1'
+import Sample from '../src/pro1'
+// import Order from'../src/pro1'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
@@ -34,8 +33,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<One />} />
-          <Route path='/pro' element={<Sample />} />
-          <Route path='/pro1/' element={<Order />} /> 
+          <Route path='/pro1' element={<Sample />} /> 
+          {/* <Route path='/pro1/' element={<Order />} />  */}
         </Routes>
       </BrowserRouter>
     </>
