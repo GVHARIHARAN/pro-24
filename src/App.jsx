@@ -33,7 +33,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<One />} />
-          <Route path='/pro1' element={<Sample />} /> 
+          <Route path='/pro1' element={<Sample />} />
           {/* <Route path='/pro1/' element={<Order />} />  */}
         </Routes>
       </BrowserRouter>

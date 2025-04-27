@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lexend+Giga&display=swap');
 
 * {
-    color: #636b2f;
+    /* color: #636b2f; */
     padding: 0%;
     margin: 0%;
     font-family: "Lexend Giga", sans-serif;
@@ -14,7 +14,7 @@
 #navb {
     position: sticky;
     /* background-color: lightgray; */
-    z-index: 100;
+    z-index: 10;
 
     padding: .25px 25px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
@@ -41,6 +41,7 @@
     border: groove 1px #636b2f;
     border-radius: 20px;
     padding: 1%;
+    
 
 
 }
@@ -95,12 +96,13 @@
     }
 
     .welp {
-        padding-top: 6%;
+        
         font-size: 8px;
     }
 
     .welh2 {
-        font-size: 15px;
+        margin-top: 5px;
+        font-size: 12px;
         width: 10%;
         letter-spacing: normal;
       
@@ -111,10 +113,9 @@
         padding: 1%;
     }
 }
-.welh2{
-    letter-spacing: 10px;
-    border-right: 5px soild;
-    border-right-color: #636b2f;
+.welh2 {
+    letter-spacing: 6px;
+    border-right: 5px solid transparent; /* fixed solid typo and merged color */
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
@@ -122,17 +123,28 @@
     animation-delay: 1s;
 }
 
-.wrapper{
-    display:inline-block;
+.wrapper {
+    display: inline-block;
 }
 
 @keyframes blink-caret {
-  50% {
-    border-color: transparent;
-  }
-}
-@keyframes typing {
-    from{
-        width: 50;
+    50% {
+        border-color: transparent;
     }
+}
+
+@keyframes typing {
+    from {
+        width: 50px; /* added px */
+    }
+   
+}
+.skillcol{
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+        inset 4px 4px 10px white;
+    border-radius: 40px !important;
+    overflow: hidden;
+    justify-content: center;
+    
 }
