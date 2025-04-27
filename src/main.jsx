@@ -1,3 +1,4 @@
+// index.jsx
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
@@ -9,8 +10,10 @@ import AOS from 'aos';
 // Initialize AOS for animations
 AOS.init();
 
-// Create root and render the app
-const root = createRoot(document.getElementById('root'));
+// Create root and render the App component
+const container = document.getElementById('root');
+const root = createRoot(container);
+
 root.render(
   <StrictMode>
     <App />
