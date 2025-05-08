@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import One from '../src/pro';
+import One from '../src/pro'; // Corrected import path
 import Sample from '../src/pro1';
 // import Order from '../src/pro1'; // Uncomment when needed
 // import Sum from '../src/components/navbar'; // Typo fixed: components, navbar

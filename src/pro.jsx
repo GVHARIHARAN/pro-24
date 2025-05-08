@@ -202,7 +202,7 @@ const BasicExample = () => {
 
   return (
     <>
-    <link rel="icon" href={Icon} />
+    
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <Navbar expand="lg" className="bg-body-tertiary" id="pnavbar">
         <Container>

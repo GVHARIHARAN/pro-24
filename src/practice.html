@@ -1,0 +1,58 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        display: none;
+    }
+</style>
+<script>
+    const a = document.getElementsByTagName("div");
+    const c = () => {
+        a.style.display = "block";
+    }
+</script>
+
+<body>
+    <button onclick="()=>c">Show</button>
+    <div class="container d-none">
+        <h1>show</h1>
+    </div>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: none;
+        }
+    </style>
+    <script>
+        const showDivs = () => {
+            const divs = document.getElementsByTagName("div");
+            for (let div of divs) {
+                div.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="showDivs()">Show</button>
+    <div class="container d-none">
+        <h1>show</h1>
+    </div>
+</body>
+
+</html>

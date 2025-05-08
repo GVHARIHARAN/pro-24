@@ -144,7 +144,7 @@ const pro1 = () => {
 
     return (
         <>
-        <link rel="icon" href={Icon}/>
+      
             <Navbar expand="lg" className="bg-body-tertiary" id="pnavbar">
                 <Container>
                     <Navbar.Brand href="#home" style={{ color: '#013220', margin: '10px' }} className=''>
