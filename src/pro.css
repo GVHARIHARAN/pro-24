@@ -308,7 +308,7 @@ body {
 
 /* Default styles for larger screens (desktop and tablets) */
 .wrapper {
-
+    background-color: white;
     overflow: hidden;
     white-space: nowrap;
     padding: 30px 0;
